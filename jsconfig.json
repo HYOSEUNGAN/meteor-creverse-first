@@ -1,0 +1,117 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/local_collection_driver.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/collection.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/connection_options.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/doc_fetcher.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/mongo_driver.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/mongo_utils.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/observe_multiplex.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/oplog_observe_driver.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/oplog_tailing.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/oplog_v2_converter.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/polling_observe_driver.js",
+        "/Users/hyoseung/.meteor/packages/mongo/1.16.0/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/jquery": [
+        "/Users/hyoseung/.meteor/packages/jquery/3.0.0/web.browser/main.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/hyoseung/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
+      ],
+      "meteor/tracker": [
+        "/Users/hyoseung/.meteor/packages/tracker/1.2.0/web.browser/tracker.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/hyoseung/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/hyoseung/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/hyoseung/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/hyoseung/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/hyoseung/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/hyoseung/.meteor/packages/ecmascript/0.16.2/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/hyoseung/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/hyoseung/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/hyoseung/.meteor/packages/hot-module-replacement/0.5.1/web.browser/hot-api.js",
+        "/Users/hyoseung/.meteor/packages/hot-module-replacement/0.5.1/web.browser/client.js",
+        "/Users/hyoseung/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
+      ],
+      "meteor/blaze-hot": [
+        "/Users/hyoseung/.meteor/packages/blaze-hot/1.1.1/web.browser/hot.js",
+        "/Users/hyoseung/.meteor/packages/blaze-hot/1.1.1/web.browser/update-templates.js"
+      ],
+      "meteor/jkuester:blaze-bs4": [
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/blaze-bs4.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/blaze-bs4-sync.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/alert/alert.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/badge/badge.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/breadcrumb/breadcrumb.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/button/button.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/card/card.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/collapse/collapse.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/dropdown/dropdown.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/item/item.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/jumbotron/jumbotron.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/link/link.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/listgroup/listgroup.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/modal/modal.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/nav/nav.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/navbar/navbar.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/progress/progress.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/spinner/spinner.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/toast/toast.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/tooltip/tooltip.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/utils/atts.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/utils/dataAtts.js",
+        "/Users/hyoseung/.meteor/packages/jkuester_blaze-bs4/0.16.2/web.browser/utils/getParentTemplate.js"
+      ],
+      "meteor/accounts-password": [
+        "/Users/hyoseung/.meteor/packages/accounts-password/2.3.1/web.browser/password_client.js",
+        "/Users/hyoseung/.meteor/packages/accounts-password/2.3.1/web.browser/email_templates.js",
+        "/Users/hyoseung/.meteor/packages/accounts-password/2.3.1/web.browser/password_server.js"
+      ],
+      "meteor/iron:router": [
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/current_options.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/http_methods.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/route_controller.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/route_controller_client.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/route.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/router.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/hooks.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/helpers.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/router_client.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/plugins.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/global_router.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/route_controller_server.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/body_parser_server.js",
+        "/Users/hyoseung/.meteor/packages/iron_router/1.2.0/web.browser/lib/router_server.js"
+      ],
+      "meteor/session": [
+        "/Users/hyoseung/.meteor/packages/session/1.2.0/web.browser/session.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
